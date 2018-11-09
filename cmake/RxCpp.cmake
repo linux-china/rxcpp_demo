@@ -1,6 +1,6 @@
 FetchContent_Declare(rxcpp
         GIT_REPOSITORY https://github.com/ReactiveX/RxCpp
-        GIT_SHALLOW TRUE # Abseil adheres to live-at-head
+        #GIT_TAG       v4.1.0
         )
 
 FetchContent_GetProperties(rxcpp)
